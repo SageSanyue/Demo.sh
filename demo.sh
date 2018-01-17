@@ -10,7 +10,7 @@ else
   cd ./css
   touch style.css
   echo "h1{color: red;}" > style.css
-  cd ./js
+  cd ../js
   touch main.js
   echo "var string = "Hello World" \n alert(string)" > main.js
   exit
