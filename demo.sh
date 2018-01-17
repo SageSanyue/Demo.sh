@@ -6,8 +6,8 @@ else
   cd $1
   mkdir css js
   touch index.html css/style.css js/main.js
-  echo "<!DOCTYPE>\r\n<title>Hello</title>\r\n<h1>Hi</h1>" > index.html
+  echo "<!DOCTYPE><title>Hello</title><h1>Hi</h1>" > index.html
   echo "h1{color: red;}" > style.css
-  echo "var string = "Hello World" \r\n alert(string)" > main.js
+  echo "var string = "Hello World" \n alert(string)" > main.js
   exit
 fi
