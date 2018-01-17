@@ -5,7 +5,7 @@ else
   mkdir $1
   cd $1
   touch index.html 
-icho "<!DOCTYPE><br><title>Hello</title><br><h1>Hi</h1>" > index.html
+  echo "<!DOCTYPE><br><title>Hello</title><br><h1>Hi</h1>" > index.html
   mkdir css js
   cd ./css
   touch style.css
