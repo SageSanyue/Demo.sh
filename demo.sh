@@ -8,7 +8,7 @@ else
   echo "<!DOCTYPE><title>Hello</title><h1>Hi</h1>" > index.html
   mkdir css js
   cd ./css
-  touch css/style.css
+  touch style.css
   echo "h1{color: red;}" > style.css
   cd ./js
   touch main.js
